@@ -10,12 +10,12 @@ Selamat datang di repositori dotfiles saya! Repositori ini berisi konfigurasi da
 
 ### Desktop Environment
 - [i3wm](https://i3wm.org/)
-- [rofi](https://rofi.readthedocs.io/)
+- rofi
 - [polybar](https://polybar.github.io/)
-- [picom](https://picom.github.io/)
+- picom
 
 ## Screenshots
-
+![Screenshot image IDE](/images/IDE.png)
 
 ## Installasi
 
@@ -23,7 +23,7 @@ Untuk menginstall konfigurasi ini, silakan ikuti langkah berikut:
 
 1. Install dependencies yang diperlukan
   ```bash
-     sudo apt install i3 nitrogen autorandr rofi polybar picom tmux zsh curl git neovim kitty gnome-screenshots
+      sudo apt install i3 nitrogen autorandr rofi polybar picom tmux zsh curl git neovim kitty gnome-screenshots
   ```
 
    atau jika anda menggunakan Arch Linux
@@ -51,7 +51,7 @@ Untuk menginstall konfigurasi ini, silakan ikuti langkah berikut:
         mv dotfiles/.config/zsh/.zshrc ~/.zshrc
     ```
 
-4. Installasi Lunarvim
+4. Installasi [Lunarvim](https://www.lunarvim.org/)
    ```bash
        sh -c "$(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)"
    ```
